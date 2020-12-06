@@ -1,0 +1,6 @@
+<div class="list-container">
+    <div *ngFor="let user of users | async" class="user-details">
+        <div class="field">Name: {{user.fullName}}</div>
+        <div class="field">Email: {{user.email}}</div>
+    </div>
+</div>
